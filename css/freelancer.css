@@ -264,6 +264,7 @@ section.success a.active {
     #portfolio .row {
         max-width: 800px;
         margin: 0px auto;
+        min-height: 600px;
         
     }
 }
