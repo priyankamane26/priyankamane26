@@ -81,22 +81,12 @@
                     <div class="intro-text">
                         <span class="name">Priyanka Mane</span>
                         <hr class="star-light">
-                        <!--<span class="skills">Java Developer - Web Developer - Database Specialist - User Experience Designer</span>-->
+                        <span class="skills">Java Developer - Web Developer - Database Specialist - User Experience Designer</span>
                         <!-- Slider Section 
                         <section class="success" id="slider">
                             <div class="container">
                                 <div class="row">-->
-                                    <h2 class="w3-center">Technologies</h2>
-                                        <div class="w3-content w3-display-container">
-                                            <img class="mySlides" src="img/Slider/java-development.png" style="width:80%">
-                                            <img class="mySlides" src="img/Slider/web-development.png" style="width:80%">
-                                            <img class="mySlides" src="img/Slider/database-management.png" style="width:80%">
-                                            <img class="mySlides" src="img/Slider/ux-designer.png" style="width:80%">
-
-                                            <!-- commenting as now using automatic slideshow 
-                                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
-                                        </div>
+                                    
                                <!-- </div>
                             </div>
                         </section>-->
@@ -106,31 +96,12 @@
         </div>
     </header>
 
-    
-
-    <script>
-    var slideIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
-        }
-        slideIndex++;
-        if (slideIndex > x.length) {slideIndex = 1} 
-        x[slideIndex-1].style.display = "block"; 
-        setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-    </script>
-
     <!-- Projects Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
+                    <h2>What did i work on?</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -212,13 +183,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Who am i?</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>&middot; Creative, Innovative & enthusiastic<br>&middot; Innate desire to achieve, excel and evolve<br></p>
+                    <p>A Creative, Innovative and enthusiastic person who has innate desire to improve and evolve every day!<br></p>
                     Want to know more about my professional journey? Here, view  or download my Resume.
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -235,7 +206,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>How to contact me?</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -285,6 +256,44 @@
         </div>
     </section>
 
+     <!-- extra-curricular -->
+    <section id="extra-curricular">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="w3-center">What i do other than coding?</h2>
+                    <hr class="star-primary">
+                    <div class="w3-content w3-display-container">
+                            <img class="mySlides" src="img/Slider/aseema.png" style="width:80%">
+                            <img class="mySlides" src="img/Slider/mobility-making.png" style="width:80%">
+                            <img class="mySlides" src="img/Slider/mobility.png" style="width:80%">
+                            <img class="mySlides" src="img/Slider/ert.png" style="width:80%">
+                            <img class="mySlides" src="img/Slider/FoodDrive.png" style="width:80%">
+                           <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>-->
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+<script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+    </script>
+
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
@@ -313,7 +322,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>What am I doing currently?</h3>
-                        <p>Working as an analyst at Nomura America Services alongside earning my CS Masters degree.</p>
+                        <p>Looking for exciting job opportunities</p>
                     </div>
                 </div>
             </div>
